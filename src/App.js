@@ -6,8 +6,8 @@ export default function App() {
   return (
     <div className="App"> 
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/education" element={<Education/>}/>
+        <Route path="/labb2" element={<Home/>}/>
+        <Route path="/labb2/education" element={<Education/>}/>
       </Routes>
     </div>
   );
