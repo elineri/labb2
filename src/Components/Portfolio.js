@@ -11,7 +11,7 @@ export default function Portfolio(){
                 {
                     name: data[0].name,
                     description: data[0].description,
-                    html_url: data.[0].html_url
+                    html_url: data[0].html_url
                 }
             ]);
         });
@@ -30,7 +30,7 @@ export default function Portfolio(){
             <main>
                 <h2>Min Portfolio</h2>
                 {
-                    name.map((name) => {
+                    name.map((names) => {
                         <>
                             <h3>{names.name}</h3>
                             <p>{names.description}</p>
