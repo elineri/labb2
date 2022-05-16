@@ -43,7 +43,7 @@ export default function Portfolio(){
                 </ul>
             </nav>
             <main>
-                <h2>Min Portfolio</h2>
+                <h2>My Portfolio</h2>
                 {isPending && <div>Loading...</div>} 
                 {
                     name.map((names) => (
